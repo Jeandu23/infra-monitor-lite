@@ -1,0 +1,7 @@
+uptime-kuma/
+*.log
+*.env
+pycache/
+*.pyc
+.DS_Store
+Thumbs.db
