@@ -29,7 +29,7 @@ sudo systemctl enable docker
 ### 2. Clone and Start Kuma
 
 ```bash
-git clone https://github.com/YOURUSERNAME/infra-monitor-lite.git
+git clone https://github.com/Jeandu23/infra-monitor-lite.git
 cd infra-monitor-lite
 docker-compose up -d
 ```
