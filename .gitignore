@@ -5,3 +5,8 @@ pycache/
 *.pyc
 .DS_Store
 Thumbs.db
+ngrok.yml
+.env
+*.tar
+*.zip
+backup.tar.gz
