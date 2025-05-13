@@ -69,7 +69,8 @@ sudo systemctl start kuma.service
 - Add a Discord webhook under **Notification**
 
 ---
-
+Credits: https://github.com/louislam/uptime-kuma
+---
 ## License
 
 MIT
