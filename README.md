@@ -26,7 +26,7 @@ sudo apt install -y docker.io docker-compose
 sudo systemctl enable docker
 ```
 
-### 2. Clone and Start Kuma
+### 2. Set Up Kuma (Clone or Unzip in VM)
 
 ```bash
 git clone https://github.com/Jeandu23/infra-monitor-lite.git
