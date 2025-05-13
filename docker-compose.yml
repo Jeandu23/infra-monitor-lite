@@ -1,13 +1,27 @@
+<<<<<<< HEAD
 version: "3.3"
 services:
   uptime-kuma:
     image: louislam/uptime-kuma
+=======
+version: '3.3'
+services:
+  uptime-kuma:
+    image: louislam/uptime-kuma:latest
+>>>>>>> e491ef47f1e46d19d4e0878b29cf3916f3efc76c
     container_name: uptime-kuma
     restart: always
     ports:
       - "3001:3001"
     volumes:
+<<<<<<< HEAD
       - kuma-data:/app/data
 
 volumes:
   kuma-data:
+=======
+      - uptime-kuma:/app/data
+
+volumes:
+  uptime-kuma:
+>>>>>>> e491ef47f1e46d19d4e0878b29cf3916f3efc76c
